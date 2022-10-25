@@ -25,5 +25,5 @@ def predict():
     return render_template('index.html', prediction_text=f'Salary for {input_feature} years of experience should be ${output}')
 
 if __name__ == "__main__":
-    app.run(debug=True, host='localhost', port=9874)
+    app.run(debug=True)
 
